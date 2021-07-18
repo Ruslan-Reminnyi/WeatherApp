@@ -93,12 +93,12 @@ class LoginFragment : Fragment() {
 
     private fun initListeners() {
         buttonLogin?.setOnClickListener {
-            Log.i("TAG", "initListeners: ${mainViewModel.weatherList.value}")
+            Log.i("TAG", "${mainViewModel.weatherList.value}")
             checkInput()
         }
 
         buttonPassword?.setOnClickListener {
-            Log.i("TAG", "initListeners: ")
+            Log.i("TAG", "${mainViewModel.weatherList.value}")
             changeFragment(SignUpFragment())
         }
     }

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="email_key">EMAIL KEY</string>
+    <string name="password_key">PASSWORD KEY</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="main_screen">Main Screen</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register">Register</string>
+    <string name="fill_out_all_fields">Fill out all fields</string>
+    <string name="passwords_not_match">Passwords don\'t match</string>
+    <string name="wrong_login_or_password">Wrong login or password</string>
+    <string name="wrong_input">Wrong input</string>
+    <string name="pressure">Pressure:</string>
+
+</resources>

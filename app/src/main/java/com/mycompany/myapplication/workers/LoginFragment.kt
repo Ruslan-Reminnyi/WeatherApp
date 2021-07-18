@@ -98,7 +98,7 @@ class LoginFragment : Fragment() {
         }
 
         buttonPassword?.setOnClickListener {
-            Log.i("TAG", "initListeners: ")
+            Log.i("TAG", "initListeners: ${mainViewModel.weatherList.value}")
             changeFragment(SignUpFragment())
         }
     }

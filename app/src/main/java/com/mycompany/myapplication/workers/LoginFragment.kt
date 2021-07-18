@@ -93,6 +93,7 @@ class LoginFragment : Fragment() {
 
     private fun initListeners() {
         buttonLogin?.setOnClickListener {
+            Log.i("TAG", "initListeners: ")
             checkInput()
         }
 

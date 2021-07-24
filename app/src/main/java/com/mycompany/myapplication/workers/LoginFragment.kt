@@ -99,7 +99,7 @@ class LoginFragment : Fragment() {
 
         buttonPassword?.setOnClickListener {
 
-            Log.i("TAG", "weatherList ${mainViewModel.weatherList.value}")
+            Log.i("TAG", "newWeatherList ${mainViewModel.weatherList.value}")
 
             changeFragment(SignUpFragment())
         }
